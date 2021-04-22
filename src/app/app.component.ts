@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { OpenweatherService } from './openweather.service';
 
-class cityTemp {
+export class cityTemp {
   luogo: string;
   valore: string
 }
