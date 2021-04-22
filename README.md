@@ -1,9 +1,8 @@
-# github-jkvcfr
+# Preparazione del child ad acquisire dati dal parent
 
-PreparaChild
 -) importo Input
 -) inserisco la @Input tra le proprietà
 
 Il prossimo passo è sul branch PreparaParent
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-jkvcfr)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-sswcreachild)
