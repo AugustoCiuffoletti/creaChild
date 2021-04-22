@@ -1,12 +1,10 @@
 # github-jkvcfr
 
--) creo la nuova classe
-	scrivo la classe
-	in AppComponent metto un oggetto come new
-	utilizzo la nuova proprietà
-	nel template uso il nuovo oggetto 
--) genero il nuovo componente notifica
--) copio clean nel ts, e la riga di output nel template
--) creo la classe city in app
+CreaChild
+-) creo un componente child
+-) Copio html (p e button)
+-) Copio ts (clean)
+-) importo la classe (cityTemp inutilizzato)
+-) in app template seleziono il component (app-notifica) (notifica works)
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-jkvcfr)

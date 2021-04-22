@@ -16,9 +16,6 @@ export class AppComponent {
   ];
   selezione: cityTemp = new cityTemp();
   constructor(private wbs: OpenweatherService) { }
-  clean() {
-    this.selezione.luogo = undefined;
-  }
   refreshTemperature(itemName: string) {
     this.selezione.luogo = itemName;
     this.wbs.getData(itemName).subscribe(
