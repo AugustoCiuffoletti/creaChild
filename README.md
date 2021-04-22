@@ -3,6 +3,6 @@
 -) importo Input
 -) inserisco la @Input tra le proprietà
 
-Il prossimo passo è sul branch PreparaParent
+Il prossimo passo è sul branch preparaParent
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-sswcreachild)
