@@ -1,4 +1,4 @@
-# Configurazione dell'output dei dati dal parent
+# Passaggio dei dati dal parent al child
 
 - aggiungere attributo all'elemento app-notifica (ora funziona)
 - rimuovere "notifica works"
