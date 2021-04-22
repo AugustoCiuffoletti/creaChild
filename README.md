@@ -1,4 +1,4 @@
-# github-jkvcfr
+# Preliminare: creazione della classe cityTemp
 
 -) scrivo la classe cityTemp (due proprietà, inizializzazione)
 -) in AppComponent metto un oggetto della classe cityTemp (new)
@@ -6,4 +6,4 @@
 
 Prossimo passo sul branch creaChild
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-jkvcfr)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-sswcreachild)
