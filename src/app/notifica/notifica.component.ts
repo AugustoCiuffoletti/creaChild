@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { cityTemp } from '../app.component'
+import { cityTemp } from '../app.component';
 
 @Component({
   selector: 'app-notifica',
