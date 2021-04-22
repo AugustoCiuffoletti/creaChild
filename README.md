@@ -1,4 +1,4 @@
-# github-jkvcfr
+# Configurazione dell'output dei dati dal parent
 
 - aggiungere attributo all'elemento app-notifica (ora funziona)
 - rimuovere "notifica works"
