@@ -1,10 +1,9 @@
 # github-jkvcfr
 
-CreaChild
--) creo un componente child
--) Copio html (p e button)
--) Copio ts (clean)
--) importo la classe (cityTemp inutilizzato)
--) in app template seleziono il component (app-notifica) (notifica works)
+PreparaChild
+-) importo Input
+-) inserisco la @Input tra le proprietà
+
+Il prossimo passo è sul branch PreparaParent
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-jkvcfr)
