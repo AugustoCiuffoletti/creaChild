@@ -3,16 +3,14 @@ Nella app che interroga openweather estraiamo la riga di notifica della temperat
 
 Articoliamo il procedimento in quattro fasi:
 
--) Prepariamo l'applicazione creando una classe cityTemp che contiene il contenuto informativo della notifica: nome della città e temperatura. Un nuovo elemento nel template del padre rappresenta il figlio
+- Prepariamo l'applicazione creando una classe cityTemp che contiene il contenuto informativo della notifica: nome della città e temperatura. Un nuovo elemento nel template del padre rappresenta il figlio
 (branch "creaOggetto")
-
--) Creiamo il nuovo componente child che chiamiamo "notifica", e trasferiamo codice e template copiandolo dal parent
+- Creiamo il nuovo componente child che chiamiamo "notifica", e trasferiamo codice e template copiandolo dal parent
 (branch "creaChild")
-
--) Creiamo il punto di ingresso della comunicazione da con la direttiva @Input nel controller del figlio ("notifica")
+- Creiamo il punto di ingresso della comunicazione da con la direttiva @Input nel controller del figlio ("notifica")
 (branch "preparaChild)
 
--) Creiamo il punto di uscita della comunicazione con un atributo nell'elemento "app-notifica" nel padre (root)
+- Creiamo il punto di uscita della comunicazione con un atributo nell'elemento "app-notifica" nel padre (root)
 (branch "preparaParent")
 
 Passo successivo sul branch creaOggetto
