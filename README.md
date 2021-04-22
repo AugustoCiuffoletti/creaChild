@@ -17,4 +17,4 @@ Articoliamo il procedimento in quattro fasi:
 
 Passo successivo sul branch creaOggetto
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-jkvcfr)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-sswcreachild)
