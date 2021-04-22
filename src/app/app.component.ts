@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { OpenweatherService } from './openweather.service';
 
+class cityTemp {
+  luogo: string;
+  valore: string
+}
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,16 +14,15 @@ export class AppComponent {
   title: string = 'Esercizio Angular';
   cities: Array<string> = ['Torino','Milano','Genova'
   ];
-  selezionata: string;
-  temperatura: string;
+  selezione: cityTemp = new cityTemp();
   constructor(private wbs: OpenweatherService) { }
   clean() {
-    this.selezionata = undefined;
+    this.selezione.luogo = undefined;
   }
   refreshTemperature(itemName: string) {
-    this.selezionata = itemName;
+    this.selezione.luogo = itemName;
     this.wbs.getData(itemName).subscribe(
-      ( x: any ) => this.temperatura = x.data[0].temp,
+      ( x: any ) => this.selezione.valore = x.data[0].temp,
       err => console.error('Observer got an error: ' + err)
     );
  }

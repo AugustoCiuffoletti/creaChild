@@ -6,7 +6,7 @@
   </li>
 </ul>
 
-<p *ngIf = "selezionata !== undefined">
-  La temperatura a {{selezionata}} e' di {{temperatura}} gradi
+<p *ngIf = "selezione.luogo !== undefined">
+  La temperatura a {{selezione.luogo}} e' di {{selezione.valore}} gradi
   <button (click) = 'clean()'>Chiudi</button>
 </p>
